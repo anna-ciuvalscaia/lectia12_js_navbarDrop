@@ -1,0 +1,73 @@
+body{
+    background-color: #223;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #112;
+    padding: 1em;
+}
+
+#navbar a {
+    color: white;
+    font-size: 1.25em;
+    padding: .5em;
+}
+
+#navbarDrop {
+    position: absolute;
+    right: 5px;
+    top: 60px;
+
+}
+
+#navbarDrop > a {
+display: block;
+color: white;
+padding: 7px;
+background-color: rgb(55, 55, 121);
+
+}
+
+#navbar a:hover {
+    color: wheat;
+}
+
+#navbarDrop a:hover {
+    color: rgb(250, 221, 168);
+}
+
+#btn_width {
+    position: absolute;
+    right: 30px;
+   margin-left: 20px;
+   width: 40px;
+   height: 30px;
+   
+}
+
+#menu {
+    width: 15px;
+    position: relative;
+    top: -10px;
+}
+
+span {
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    right:15px;
+    top: -5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 0 3px 0 3px;
+   
+}
